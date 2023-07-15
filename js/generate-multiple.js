@@ -541,13 +541,13 @@ const emailTemplate = `<!DOCTYPE html>
                                                 </tr>
                                                 <tr>
                                                     <td class="cta-button" width="28" height="51" align="center" valign="middle" style="width: 177px; min-width: 177px; max-width: 177px; height: 51px; margin: 0px; padding: 0px;">
-                                                        <a href="https://kcdevelop.github.io/email-campaigns/adapt/program-introduction/interest.html#SCHOOL_NAME#interested" target="_blank" style="margin: 0px; padding: 0px; text-decoration: none;">
+                                                        <a class="yes-cta" href="https://kcdevelop.github.io/email-campaigns/adapt/program-introduction/interest.html#SCHOOL_NAME#interested" target="_blank" style="margin: 0px; padding: 0px; text-decoration: none;">
                                                             <img class="yes-cta-button" width="177" height="51" src="https://kcdevelop.github.io/email-campaigns/adapt/program-introduction/images/yes-cta.png" style="display: block; width: 177px; min-width: 177px; max-width: 177px; height: 51px; margin: 0px; padding: 0px;" alt="Interested CTA" />
                                                         </a>
                                                     </td>
                                                     <td class="hrz-spacer-15" width="15" height="51" style="width: 15px; min-width: 15px; max-width: 15px; height: 51px; margin: 0px; padding: 0px;"></td>
                                                     <td class="cta-button" width="177" height="51" align="center" valign="middle" style="width: 177px; min-width: 177px; max-width: 177px; height: 51px; margin: 0px; padding: 0px;">
-                                                        <a href="https://kcdevelop.github.io/email-campaigns/adapt/program-introduction/interest.html#SCHOOL_NAME#declined" target="_blank" style="margin: 0px; padding: 0px; text-decoration: none;">
+                                                        <a class="no-cta" href="https://kcdevelop.github.io/email-campaigns/adapt/program-introduction/interest.html#SCHOOL_NAME#declined" target="_blank" style="margin: 0px; padding: 0px; text-decoration: none;">
                                                             <img class="no-cta-button" width="28" height="28" src="https://kcdevelop.github.io/email-campaigns/adapt/program-introduction/images/no-cta.png" style="display: block; width: 177px; min-width: 177px; max-width: 177px; height: 51px; margin: 0px; padding: 0px;" alt="Not Interested CTA" />
                                                         </a>
                                                     </td>
