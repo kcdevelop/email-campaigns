@@ -3,8 +3,8 @@ import getData from './modules/get-data.js';
 const yesCta = document.querySelector('a.yes-cta'),
 noCta = document.querySelector('a.no-cta');
 
-var interestedUrl = 'https://kcdevelop.github.io/email-campaigns/adapt/program-introduction/interest.html#SCHOOL_NAME#interested',
-notInterestedUrl = 'https://kcdevelop.github.io/email-campaigns/adapt/program-introduction/interest.html#SCHOOL_NAME#declined';
+var interestedUrl = `https://kcdevelop.github.io/email-campaigns/adapt/program-introduction/interest.html#SCHOOL_NAME#interested`,
+notInterestedUrl = `https://kcdevelop.github.io/email-campaigns/adapt/program-introduction/interest.html#SCHOOL_NAME#declined`;
 
 function displayMessage(data) {
   if(data.length > 0) {
