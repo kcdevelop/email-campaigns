@@ -1,4 +1,4 @@
-const schoolData = [
+const contactData = [
     { schoolName: 'Legends Charter School', contactPerson: 'Nicole Daniels', email: 'nicole@legendsschools.org' },
     { schoolName: 'Benjamin Stoddert MS', contactPerson: 'Tisa Morgan', email: 'tisa.morgan@pgcps.org' },
     { schoolName: 'District Heights ES', contactPerson: 'Marlowe Blount-Rich, Kiah Udoh', email: 'marlowe.rich@pgcps.org, kiah.whitfield@pgcps.org' },
@@ -17,4 +17,4 @@ const schoolData = [
     { schoolName: 'Thomas Pullen MS', contactPerson: 'Pamela Lucus', email: 'pamela.lucas@pgcps.org' }
 ];
 
-export default schoolData;
+export default contactData;
