@@ -16,15 +16,15 @@ function createCodeField(template, schoolName=null) {
 }
 
 function populateData(template=null, emailData, contactData=null) {
-    let { previewText, subjectLine, resourceUrl, bodyText } = emailData;
+    let { metaTitle, previewText, subjectLine, resourceUrl, bodyText } = emailData;
     if(
         template !== null && 
         emailData !== ''
     ) {
       let contentHeading = '';
 
+        template = template.replace('TITLE', metaTitle);
         template = template.replace('PREVIEW_TEXT', previewText);
-        template = template.replace('TITLE', subjectLine);
         template = template.replaceAll('RESOURCE_URL', resourceUrl);
 
         bodyText.forEach((text, index) => {
@@ -32,13 +32,17 @@ function populateData(template=null, emailData, contactData=null) {
         });
 
         if(contactData) {
-          let schoolName = contactData.schoolName.replaceAll(' ', '+');
-          template = template.replaceAll('SCHOOL_NAME', schoolName);
+          let schoolName = contactData.schoolName,
+          recipientName = contactData.contactPerson,
+          email = contactData.email;
+
+          template = template.replaceAll('RECIPIENT_NAME', recipientName);
 
           contentHeading = `
-            <h1 class="raw-code-heading">${subjectLine}: ${contactData.schoolName}</h1>
-            <p class="recipients">${contactData.contactPerson}</p>
-            <p class="emails">${contactData.email}</p>
+            <h1 class="raw-code-heading">Subject Line: ${subjectLine}</h1>
+            <p class="recipients">School Name: ${schoolName}</p>
+            <p class="recipients">Recipients: ${recipientName}</p>
+            <p class="emails">Email: ${email}</p>
           `;
         } else {
           contentHeading = `<h1 class="raw-code-heading">${subjectLine}</h1>`;

@@ -614,7 +614,9 @@ const templateCollection = {
           </table>
       </body>
   </html>`,
-    legends: `<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+    legends: `
+    <!DOCTYPE html>
+    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
     xmlns:o="urn:schemas-microsoft-com:office:office">
     <head>
         <meta charset="utf-8" />
@@ -904,7 +906,326 @@ const templateCollection = {
         </tr>
         </table>
     </body>
-    </html> `
+    </html>`,
+    introduction: `<!DOCTYPE html>
+    <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+    xmlns:o="urn:schemas-microsoft-com:office:office">
+	<head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+        <meta name="format-detection" content="telephone=no, date=no, address=no, email=no, url=no" />
+        <meta name="x-apple-disable-message-reformatting" />
+        <meta name="color-scheme" content="light dark" />
+        <meta name="supported-color-schemes" content="light dark" />
+        <title>TITLE</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Caveat:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <script type="module" src="../../js/main.js"></script>
+        <script type="module" src="../../js/view-in-browser.js"></script>
+
+		<style type="text/css">
+            @import url('https://fonts.googleapis.com/css2?family=Archivo&family=Caveat&family=Raleway@500&display=swap');
+            
+			a:link,
+			span.MsoHyperlink {
+				mso-style-priority: 99;
+			}
+			a:link,
+			u + #body a,
+			span.MsoHyperlink,
+			a[x-apple-data-detectors] {
+				text-decoration: none !important;
+			}
+			u + #body a,
+			a[x-apple-data-detectors] {
+				color: #000 !important;
+			}
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+      .archivo-font,
+      .caveat-font,
+      .raleway-font {
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+      }
+      .archivo-font {
+        font-family: "Archivo", sans-serif;
+        font-variation-settings: "wdth" 100;
+      }
+      .caveat-font {
+        font-family: "Caveat", cursive !important;
+        font-size: 24px !important;
+      }
+      .raleway-font {
+        font-family: "Raleway", sans-serif;
+      }
+    	@media screen and (min-width: 0px) and (max-width: 675px) {
+				.percent100 {
+					width: 100% !important;
+					min-width: 100% !important;
+					max-width: 100% !important;
+				}
+        .percent70 {
+            width: 70% !important;
+            min-width: 70% !important;
+            max-width: 70% !important;
+        }
+        .mobile-show {
+            display: block !important;
+        }
+        .mobile-show-flex {
+            display: flex !important;
+        }
+        .mobile-show-table {
+            display: table !important;
+        }
+				.mobile-hide {
+					mso-hide: all !important;
+					display: none !important;
+          height: 0px !important;
+					max-height: 0px !important;
+          overflow: hidden !important;
+				}
+        .mobile-show,
+        .mobile-show-table {
+					mso-hide: none !important;
+          height: auto !important;
+					max-height: none !important;
+					overflow: visible !important;
+				}
+        .front-lights-block {
+          background-size: 77% auto !important
+        }
+        td.logo-scenery {
+            padding-top: 15px !important;
+            padding-bottom: 19px !important;
+        }
+        .marquee-photo {
+          height: 120px !important;
+          width: 95px !important;
+          min-width: 95px !important;
+          max-width: 95px !important;
+        }
+        .main-curtain-header-image,
+        .stage-apron-audience-image {
+            height: auto !important;
+        }
+        .stage,
+        .closing,
+        .greeting,
+        .signature,
+        .signature-print,
+        .performance-area,
+        .contact-information,
+        .mobile-show-flex .information {
+          text-align: center !important;
+        }
+        .performance-area {
+            width: auto !important;
+            min-width: auto !important;
+            max-width: none !important;
+            padding-bottom: 32px !important;
+        }
+        .main-message-block tr.mobile-show-flex {
+            flex-direction: column !important;
+        }
+        .stage,
+        .main-message-block tr.mobile-show-flex .performance-area {
+            padding-bottom: 2px !important;
+        }
+        .information:not(:last-child) {
+          padding-bottom: 8px !important;
+        }
+        .show-hide-content {
+            position: relative !important;
+            width: 75% !important;
+        }
+        .cta,
+        .activation {
+            box-sizing: border-box !important;
+            height: 32px !important;
+            margin: 0px !important;
+            outline: 0px !important;
+            padding: 0px !important;
+            position: absolute !important;
+            width: 100% !important;
+            text-align: center !important;
+            top: 0px !important;
+            user-select: none !important;
+        }
+        .cta {
+            padding-bottom: 5px !important;
+            padding-top: 7px !important;
+        }
+        .activation {
+            border: 0 !important;
+            opacity: 0 !important;
+            position: absolute !important;
+        }
+        .content {
+            display: none !important;
+            padding-top: 32px !important;
+        }
+        .activation:checked + .content {
+            display: block !important;
+        }
+        .show-hide-content,
+        .logo-scenery-block,
+        .main-message-block {
+          margin: 0px auto !important;
+        }
+      }
+		</style>
+		<!--[if gte mso 15]>
+		<xml>
+		<o:OfficeDocumentSettings>
+		<o:AllowPNG/>
+		<o:PixelsPerInch>96</o:PixelsPerInch>
+		</o:OfficeDocumentSettings>
+		</xml>
+		<![endif]-->
+  </head>
+  <body>
+    <!--[if !mso]><!-- -->
+    <div class="preview-text" style="margin: 0px; padding: 0px; mso-hide: all; display: none; max-height: 0px; overflow: hidden;">PREVIEW_TEXT</div>
+    <!--<![endif]-->
+    <table cellpadding="0" cellspacing="0" class="page-frame" style="width: 100%; min-width: 100%; max-width: 100%; margin: 0px; padding: 0px; background-color: #13226f;" bgcolor="#13226f">
+        <tr>
+          <td class="page" style="width: 100%; min-width: 100%; max-width: 100%; margin: 0px; padding: 0px;" width="100%" align="center" valign="top">
+            <!--[if gte mso 9]>
+            <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width: 700px; height: 100%;">
+            <v:fill type="tile" src="RESOURCE_URL/images/cyc-bg.jpg" />
+            <v:textbox inset="0,0,0,0">
+            <![endif]-->
+            <table cellpadding="0" cellspacing="0" class="percent100 cyc-bg-block" background="RESOURCE_URL/images/cyc-bg.jpg" style="width: 700px; min-width: 700px; max-width: 700px; margin: 0px; padding: 0px; background-repeat: no-repeat; background-position: center top; background-size: cover; background-color: #f5c95a;" bgcolor="#f5c95a">
+              <tr>
+                <td class="percent100 cyc-block" width="700" valign="top" style="width: 700px; min-width: 700px; max-width: 700px; margin: 0px; padding: 0px;" width="700" align="center" valign="top">
+                  <table cellpadding="0" cellspacing="0" class="percent100 confetti-bg-block" style="width: 700px; min-width: 700px; max-width: 700px; margin: 0px; padding: 0px;">
+                    <tr>
+                      <td class="percent100 confetti-block" width="700" valign="top" style="width: 700px; min-width: 700px; max-width: 700px; margin: 0px; padding: 0px;" width="700" align="center" valign="top">
+                        <!--[if gte mso 9]>
+                        <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width: 700px; height: 100%;">
+                        <v:fill type="tile" src="RESOURCE_URL/images/main-curtain-legs-dsh-red.png" />
+                        <v:textbox inset="0,0,0,0">
+                        <![endif]-->
+                        <table cellpadding="0" cellspacing="0" class="percent100 main-curtain-legs-block" background="RESOURCE_URL/images/main-curtain-legs-dsh-red.png" style="width: 700px; min-width: 700px; max-width: 700px; margin: 0px; padding: 0px; background-repeat: repeat-y; background-position: center top; background-size: 100% 100%; background-color: transparent;">
+                          <tr>
+                            <td class="percent100 main-curtain-legs" width="700" valign="top" style="width: 700px; min-width: 700px; max-width: 700px; margin: 0px; padding: 0px;" width="700" align="center" valign="top">
+                              <!--[if gte mso 9]>
+                              <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width: 554px; height: 270px;">
+                              <v:fill type="tile" src="RESOURCE_URL/images/front-spot-lights.png" />
+                              <v:textbox inset="0,0,0,0">
+                              <![endif]-->
+                              <table cellpadding="0" cellspacing="0" class="percent100 front-lights-block" background="RESOURCE_URL/images/front-spot-lights.png" style="width: 700px; min-width: 700px; max-width: 700px; margin: 0px; padding: 0px; background-repeat: no-repeat; background-position: center top; background-size: 554px 270px; background-color: transparent;">
+                                <tr>
+                                    <td class="percent100 front-lights" style="width: 700px; min-width: 700px; max-width: 700px; margin: 0px; padding: 0px;"  width="700" align="center" valign="top">
+                                        <table cellpadding="0" cellspacing="0" class="percent100 main-curtain-header-block" style="width: 700px; min-width: 700px; max-width: 700px; padding: 0px;" width="700">
+                                          <tr>
+                                                <td class="percent100 main-curtain-header" style="width: 700px; min-width: 700px; max-width: 700px; margin: 0px; padding: 0px;" width="700" align="left" valign="top">
+                                                    <img src="RESOURCE_URL/images/main-curtain-header-red.png" alt="Main Curtain Header With Lights" class="percent100 main-curtain-header-image" height="93" style="display: block; width: 700px; min-width: 700px; max-width: 700px; height: 93px; margin: 0px; padding: 0px;" width="700" />
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table cellpadding="0" cellspacing="0" class="percent100 section-block" style="width: 430px; min-width: 430px; max-width: 430px; margin: 0px; padding: 0px;" width="430">
+                                          <tr>
+                                            <td class="percent100 performance-area" style="width: 430px; min-width: 430px; max-width: 430px; margin: 0px; padding: 0px;" width="430" align="center" valign="top">
+                                              <table cellpadding="0" cellspacing="0" class="percent70 logo-scenery-block" style="width: 430px; min-width: 430px; max-width: 430px; padding: 0px;" width="430">
+                                                <tr>
+                                                  <td class="percent100 logo-scenery" style="width: 430px; min-width: 430px; max-width: 430px; margin: 0px; padding: 32px 0px 24px;" width="430" align="center" valign="top">
+                                                    <img src="RESOURCE_URL/images/marquee-photo.png" alt="Marquee Photo" class="marquee-photo" height="150" style="display: block; width: 119px; min-width: 119px; max-width: 119px; height: 150px; margin: 0px; padding: 0px;" width="119" />
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                              <table cellpadding="0" cellspacing="0" class="percent70 main-message-block" style="width: 430px; min-width: 430px; max-width: 430px; margin: 0px; padding: 0px;" width="430">
+                                                <tr>
+                                                  <td class="percent100 greeting" style="width: 430px; min-width: 430px; max-width: 430px; margin: 0px; padding: 0px 0px 8px; font-family: arial, sans-serif; font-size: 15px; line-height: 24px; color: #000;" width="430" align="left" valign="top" colspan="3">
+                                                    Principal RECIPIENT_NAME:
+                                                  </td>
+                                                </tr>
+                                                <tr>
+                                                  <td class="percent100 stage" style="width: 430px; min-width: 430px; max-width: 430px; margin: 0px; padding: 0px 0px 15px; font-family: arial, sans-serif; font-size: 15px; line-height: 24px; color: #000;" width="430" align="left" valign="top" colspan="3">
+                                                    <span style="font-family: arial, sans-serif; font-size: 15px; color: #000;">MAIN_COPY_0</span>
+                                                  </td>
+                                                </tr>
+                                                <tr>
+                                                  <td class="percent100 closing" style="width: 430px; min-width: 430px; max-width: 430px; margin: 0px; padding: 15px 0px 8px; font-family: arial, sans-serif; font-size: 15px; line-height: 24px; color: #000;" width="430" align="left" valign="top" colspan="3">
+                                                    Sincerely,
+                                                  </td>
+                                                </tr>
+                                                <tr>
+                                                  <td class="percent100 signature-print" style="width: 430px; min-width: 430px; max-width: 430px; margin: 0px; padding: 0px 0px 15px; font-family: arial, sans-serif; font-size: 15px; line-height: 20px; color: #000;" width="430" align="left" valign="top" colspan="3">
+                                                    Kenneth Corbin,<br /> 
+                                                    Theatre Arts (Drama) Teacher
+                                                  </td>
+                                                </tr>
+                                              </table>
+                                              <table cellpadding="0" cellspacing="0" class="percent70 main-message-block" style="width: 480px; min-width: 480px; max-width: 480px; margin: 0px; padding: 0px;" width="480">
+                                                <tr>
+                                                  <td class="percent100 stage" style="width: 480px; min-width: 480px; max-width: 480px; margin: 0px; padding: 15px 0px 15px; font-family: arial, sans-serif; font-size: 15px; line-height: 24px; color: #000; border-top: solid 2px #000" width="480" align="left" valign="top" colspan="3">
+                                                    <table cellpadding="0" cellspacing="0" class="percent100 main-message-block section-block" style="margin: 0px; padding: 0px;">
+                                                      <tr class="mobile-show-flex">
+                                                        <td class="percent100 information" style="width: 160px; min-width: 160px; max-width: 160px; margin: 0px; padding: 0px; font-family: arial, sans-serif; font-size: 15px; line-height: 19px; color: #b80702;" align="center" valign="top" width="160">
+                                                          <a href="https://rebrand.ly/theatre-educator" target="_blank" style="font-family: arial, sans-serif; font-size: 15px; color:#b80702; font-weight: bold; text-decoration: none !important;">View Resume&#8201;&#9656;</a>
+                                                        </td>
+                                                        <td class="mobile-hide spacer-4" style="width: 15px; min-width: 15px; max-width: 15px; margin: 0px; padding: 0px;" width="15">
+                                                        </td>
+                                                        <td class="percent100 information" style="width: 130px; min-width: 130px; max-width: 130px; margin: 0px; padding: 0px; font-family: arial, sans-serif; font-size: 15px; line-height: 19px; color: #b80702;" align="center" valign="top" width="130">
+                                                          <a href="tel:301-704-3786" target="_blank" style="font-family: arial, sans-serif; font-size: 15px; color:#b80702; font-weight: bold; text-decoration: none !important;">Phone&#8201;&#9656;</a>
+                                                        </td>
+                                                        <td class="mobile-hide spacer-4" style="width: 15px; min-width: 15px; max-width: 15px; margin: 0px; padding: 0px;" width="15">
+                                                        </td>
+                                                        <td class="percent100 information" style="width: 160px; min-width: 160px; max-width: 160px; margin: 0px; padding: 0px; font-family: arial, sans-serif; font-size: 15px; line-height: 19px; color: #b80702;" align="center" valign="top">
+                                                          <a href="mailto:kenneth.corbin@pgcps.org" target="_blank" style="font-family: arial, sans-serif; font-size: 15px; color:#b80702;font-weight: bold; text-decoration: none !important;">Send Email&#8201;&#9656;</a>
+                                                        </td>
+                                                      </tr>
+                                                    </table>
+                                                   </td>
+                                                </tr>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td class="percent100 stage-apron-audience" style="width: 700px; min-width: 700px; max-width: 700px; margin: 0px; padding: 0px;" width="700" align="left" valign="top">
+                                              <img src="RESOURCE_URL/images/stage-apron-audience-four-lights-dsh-ds-red.png" alt="Stage Apron Audience" class="percent100 stage-apron-audience-image" height="225" style="display: block; width: 700px; min-width: 700px; max-width: 700px; height: 225px; margin: 0px; padding: 0px;" width="700" />
+                                            </td>
+                                          </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                              </table>
+                              <!--[if gte mso 9]>
+                              </v:textbox>
+                              </v:rect>
+                              <![endif]-->
+                            </td>
+                          </tr>
+                        </table>
+                        <!--[if gte mso 9]>
+                        </v:textbox>
+                        </v:rect>
+                        <![endif]-->
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+            <!--[if gte mso 9]>
+                </v:textbox>
+                </v:rect>
+                <![endif]-->
+          </td>
+        </tr>
+      </table>
+	</body>
+</html>`
 };
 
 export default templateCollection;
